@@ -1,7 +1,5 @@
--- Define the message shown to the player
 local kickMessage = "discontuined"
 
--- Function to kick a player when they join
 game.Players.PlayerAdded:Connect(function(player)
     player:Kick(kickMessage)
 end)
